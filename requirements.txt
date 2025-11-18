@@ -1,0 +1,7 @@
+openai-whisper
+sounddevice
+scipy
+gtts
+playsound==1.2.2
+transformers
+torch
