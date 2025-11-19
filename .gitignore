@@ -1,1 +1,68 @@
-darth
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+!.gitkeep
+
+# Environment
+.env
+.env.local
+.env.production
+
+# AI Models Cache
+audio_cache/*
+!audio_cache/.gitkeep
+uploads/*
+!uploads/.gitkeep
+*.wav
+*.mp3
+
+# Logs
+*.log
+logs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Frontend Build
+frontend/dist/
+frontend/build/
+frontend/.vite/
+
+# Temporary files
+*.tmp
+temp/
+.cache/
+
+# Test
+.pytest_cache/
+test_vader_ai.db
+htmlcov/
+.coverage
